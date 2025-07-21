@@ -1,7 +1,7 @@
-import { LearningDashboard } from '@/components/LearningDashboard';
+import { SkillDashboard } from '@/components/SkillDashboard';
 
 const Index = () => {
-  return <LearningDashboard />;
+  return <SkillDashboard />;
 };
 
 export default Index;
