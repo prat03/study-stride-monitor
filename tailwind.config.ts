@@ -49,16 +49,6 @@ export default {
 					DEFAULT: 'hsl(var(--success))',
 					foreground: 'hsl(var(--success-foreground))'
 				},
-				warning: {
-					DEFAULT: 'hsl(var(--warning))',
-					foreground: 'hsl(var(--warning-foreground))'
-				},
-				skill: {
-					beginner: 'hsl(var(--skill-beginner))',
-					intermediate: 'hsl(var(--skill-intermediate))',
-					advanced: 'hsl(var(--skill-advanced))',
-					expert: 'hsl(var(--skill-expert))'
-				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
 					foreground: 'hsl(var(--popover-foreground))'
@@ -127,13 +117,11 @@ export default {
 			},
 			boxShadow: {
 				'soft': 'var(--shadow-soft)',
-				'glow': 'var(--shadow-glow)',
-				'assessment': 'var(--shadow-assessment)'
+				'glow': 'var(--shadow-glow)'
 			},
 			backgroundImage: {
 				'gradient-primary': 'var(--gradient-primary)',
 				'gradient-success': 'var(--gradient-success)',
-				'gradient-professional': 'var(--gradient-professional)',
 				'gradient-background': 'var(--gradient-background)'
 			}
 		}
